@@ -27,6 +27,17 @@ than or equal to `n`. For example:
 | 14    | 87 178 291 200              |
 | 15    | 1 307 674 368 000           |
 
+## Resolve
+`
+/**
+ * @param {number} number
+ * @return {number}
+ */
+export default function factorial(number) {
+	return number < 2 ? (number < 0 ? 'Can\'t be sign！！' : 1) : f(number - 1) * number;
+}
+`
+
 ## References
 
 [Wikipedia](https://en.wikipedia.org/wiki/Factorial)
