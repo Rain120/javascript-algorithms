@@ -15,6 +15,18 @@ The Fibonacci spiral: an approximation of the golden spiral created by drawing c
 
 ![Fibonacci Spiral](https://upload.wikimedia.org/wikipedia/commons/2/2e/FibonacciSpiral.svg)
 
+## Code 
+```
+export default function fibonacci(number) {
+	if (number === 0) {
+		return 0;
+    }else if (number === 1 || number === 2) {
+		return 1;
+    }
+	return fibonacci(number - 1 ) + fibonacci(number -2)
+}
+```
+
 ## References
 
 [Wikipedia](https://en.wikipedia.org/wiki/Fibonacci_number)
