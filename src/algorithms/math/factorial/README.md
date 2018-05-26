@@ -28,11 +28,11 @@ than or equal to `n`. For example:
 | 15    | 1 307 674 368 000           |
 
 ## Code
-`
-    export default function factorial(number) { 
-        return number < 2 ? (number < 0 ? 'Can\'t be sign!!!' : 1) : factorial(number - 1) * number;
-    }
-`
+```
+  export default function factorial(number) { 
+    return number < 2 ? (number < 0 ? 'Can\'t be sign!!!' : 1) : factorial(number - 1) * number;
+  }
+```
 
 ## References
 
